@@ -1,125 +1,433 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>NeoDesk-Soluções em Informática</title>
-    <meta content="Pagina temporaria para o site da NeoDesk" name="descrição">
-    <meta content="TI, Informatica, Assistencia tecnica, Desencolvimento de sites" name="keywords">
-    <link href="assets/files/img/neodesk-touch-icon.png" rel="icon"> <!---->
-    <link href="assets/files/img/neodesk-touch-icon.png" rel="apple-touch-icon"><!---->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-    <link href="assets/indexTemp/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/indexTemp/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/indexTemp/css/style.css" rel="stylesheet">
-  </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>NeoDesk - Desenvolvimento de sites.</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="assets/indexMain/files/img/neodesk-touch-icon.png" rel="icon">
+  <link href="assets/indexMain/files/img/neodesk-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="assets/indexMain/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/indexMain/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/indexMain/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="assets/indexMain/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/indexMain/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/indexMain/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="assets/indexMain/css/style.css" rel="stylesheet">
+</head>
 
 <body>
-    <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center">
-      <h1>NeoDesk - Soluções em Informática</h1>
-      <h2>A página www.neodeskinformatica.com.br etá hospedada, mas ainda encontra-se em construção. 
-        Por favor, tente novamente em breve.</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2023/5/1">
-        <div>
-          <h3>%d</h3>
-          <h4>Dias</h4>
+   <header id="header">
+    <div class="container-fluid">
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">NeoDesk</a></h1>
+  
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Inicio</a></li>
+          <li><a href="#about">Quem somos</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url('assets/indexMain/files/img/intro/1.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Outsourcing</h2>
+                <p>Soluções completas e adaptáveis de acordo com as sua necessidades, planos 100% adaptaveis é um dos diferenciais da NeoDesk - Soluções em informática. </p>
+                <a href="https://wa.me/5521986790008" class="btn-get-started scrollto">Fale conosco</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('assets/indexMain/files/img/intro/2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Infraestrutura</h2>
+                <p>Laboratório de manutenção próprio devidamente equipados para todos os tipos de consertos.</p>
+                <a href="https://wa.me/5521986790008?text=Gostaria+de+fazer+um+or%C3%A7amento%21" class="btn-get-started scrollto">Faça um orçamento gratís</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('assets/indexMain/files/img/intro/3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Suporte PME</h2>
+                <p>Planos personalizado, serviço de manutenção corretiva e preventiva de Computadores, Sevidores, Smartphones e Notebooks.</p>
+                <a href="https://wa.me/5521986790008?text=Gostaria+de+uma+proposta+para+minha+empresa." class="btn-get-started scrollto">Solicitar proposta</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>%h</h3>
-          <h4>Horas</h4>
-        </div>
-        <div>
-          <h3>%m</h3>
-          <h4>Minutos</h4>
-        </div>
-        <div>
-          <h3>%s</h3>
-          <h4>Segundos</h4>
-        </div>
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-  </header><!-- End #header -->
-
+  </section>
   <main id="main">
-    <section id="about" class="about">
+
+    <section id="featured-services">
       <div class="container">
-        <div class="row content">
-          <div class="col-lg-6">
-            <h2>NeoDesk Soluções em Informática</h2>
-            <h3>Tudo que você precisa em um só lugar.</h3>
+        <div class="row">
+          <div class="col-lg-4 box">
+            <i class="ion-ios-speedometer-outline"></i>
+            <h4 class="title"><a href="">ATENDIMENTO PERSONALIZADO</a></h4>
+            <p class="description">Plano de atendimento personalizado, pensado na necessidade real de cada cliente.</p>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-people-outline"></i>
+            <h4 class="title"><a href="">SLA DE ATENDIMENTO</a></h4>
+            <p class="description">SLA máximo de 3 horas para atendimento de primeiro nível podendo variar de acordo o critério da solicitação do cliente, e sempre é iniciado no momento que você estabelecer contato conosco.</p>
+          </div>
+          <div class="col-lg-4 box">
+            <i class="ion-ios-paper-outline"></i>
+            <h4 class="title"><a href="">TARIFAÇÃO PERSONALIZADA</a></h4>
+            <p class="description">Buscanto o melhor para nossos clientes nossos planos são personalizado baseados na inflaestrutura local.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <header class="section-header">
+          <h3>Quem Somos</h3>
+          <p>Somos apaixonados por inovação e acreditamos que toda tecnologia é aplicável em qualquer empresa, independentemente do tamanho de seu negócio ou volume de investimento. </p>
+        </header>
+        <div class="row about-cols">
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/indexMain/files/img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa Missão</a></h2>
+              <p> A NeoDesk - Soluções em Informática tem a missão levar serviço de qualidade com preço justo priorizando a satisfação de nossos clientes.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/indexMain/files/img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nosso Plano</a></h2>
+              <p>Atendimento humanizado, transparente e com relatorios de facil compreenção alinhados com serviços de qualidade e quipamentos modernos.  Buscamos a satisfação plenas de nossos clientes.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/indexMain/files/img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa Visão</a></h2>
+              <p>Somos apaixonados por técnologia e por pessoas, nossa missão é ajudar e servir com exelencia. Conquistando não só clientes mais ajudando a salvar vidas. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Serviços</h3>
+          <p>Tão importante quanto pensar em inovação é colocar em prática e isto  pode levar você a patamares tão altos, que não existirá com quem competir</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-world-outline"></i></div>
+            <h4 class="title"><a href="">Desenvolvimento de Sites e Sistemas</a></h4>
+            <p class="description">Independentemente do segmento, local ou tamanho, esse é o denominador comum entre todos os negócios de sucesso. Ter um site próprio é a presença digital mínima de que sua empresa precisa.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-cloud-outline"></i></div>
+            <h4 class="title"><a href="">Sincronização de Arquivos em Nuvem</a></h4>
+            <p class="description">Sincronize arquivos entre dois ou mais computadores em tempo real, protegido com segurança de olhares indiscretos.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bolt-outline"></i></div>
+            <h4 class="title"><a href="">Virtualizações de computadores e servidores</a></h4>
+            <p class="description">Além de reduzir o consumo de energia, o fato de não ser preciso utilizar vários computadores para realizar as tarefas operacionais da empresa permite que o espaço físico necessário para alocação seja muito menor.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-cog-outline"></i></div>
+            <h4 class="title"><a href="">Manutenção de Computadores, Notebooks</a></h4>
+            <p class="description">Ação desencadeada visando solucionar um problema diagnosticado no computador, ou análisar situações no funcionamento do mesmo evitando danos futuros.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-pulse"></i></div>
+            <h4 class="title"><a href="">Manutenção Smartphones</a></h4>
+            <p class="description">Abertura e reparo, análise de falhas e danos na estrutura dos aparelhos, oferecendo soluções de reparos físicos e lógicos.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-unlocked-outline"></i></div>
+            <h4 class="title"><a href="">Desbloqueio de Smartphones e Computadores</a></h4>
+            <p class="description">Ato de remover a senha e/ou contas vinculadas no dispositivo. </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-monitor-outline"></i></div>
+            <h4 class="title"><a href="">Streaming TV</a></h4>
+            <p class="description">Serviço de transmição via Internet.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-printer-outline"></i></div>
+            <h4 class="title"><a href="">Impreções de bannes e cartões visitas</a></h4>
+            <p class="description">Serviço de Impreções de bannes e cartões visitas para sua empresa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Explore novas possibilidades</h3>
+        <p> Tenha um especialista em tecnologia pronto para te ajudar no momento que precisar.</p>
+        <a class="cta-btn" href="https://wa.me/5521986790008">Seja atendido agora mesmo</a>
+      </div>
+    </section>
+
+    <section id="facts"  class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Explore possibilidades ilimitadas</h3>
+          <p>Venha fazer parte da carteira de clientes.</p>
+        </header>
+        <div class="row counters">
+  				<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">7</span>
+            <p>Clientes</p>
+  				</div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">15</span>
+            <p>Projetos Comcluidos</p>
+  				</div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">687</span>
+            <p>Horas de Desenvolvimento</p>
+  				</div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">67689</span>
+            <p>Horas de Suporte Técnico</p>
+  				</div>
+  			</div>
+        <div class="facts-img">
+          <img src="assets/indexMain/files/img/site.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+        <header class="section-header">
+          <h3>Clientes</h3>
+        </header>
+        <div class="owl-carousel clients-carousel">
+          <img src="assets/indexMain/files/img/clients/client-1.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-2.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-3.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-4.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-5.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-6.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-7.png" alt="">
+          <img src="assets/indexMain/files/img/clients/client-8.png" alt="">
+        </div>
+      </div>
+    </section>
+
+<!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testemulhos</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="assets/indexMain/files/img/testemulho/#" class="testimonial-img" alt="">
+            <h3>Jovem</h3>
+            <h4>Cliente &amp; Pessoa Física</h4>
             <p>
-              A NeoDesk - Soluções em Informática visa levar serviço de qualidade priorizando a satisfação de nossos clientes.
+              <img src="assets/indexMain/files/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Simplesmente amei, equipe disposta a esclarecer todas as dúvidas, serviços transparentes com relatórios de fácil compreensão.
+              <img src="assets/indexMain/files/img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-            <ul>
-              <li><i class="bi bi-check"></i> Desenvolvimento de sites</li>
-              <li><i class="bi bi-check"></i> Sincromização de Arquivos em Nuvem</li>
-              <li><i class="bi bi-check"></i> Suporte Personalizado</li>
-              <li><i class="bi bi-check"></i> Virtualizações de Servidores e Computadores</li>
-              <li><i class="bi bi-check"></i> Assistência ténica para Computadores, Notebooks e Smartphones</li>
-              <li><i class="bi bi-check"></i> Impreção de banners e cartões visitas</li>
-              <li><i class="bi bi-check"></i> Streming TV</li>
-              <li><i class="bi bi-check"></i> Desbloqueio de conta Google, Iphones e Xiaomi</li>
-              <li><i class="bi bi-check"></i> SLA Personalizado</li>
-            </ul>
-            <p class="fst-italic">Disponibilizamos relatórios de fácil entendimento para você entender tudo que foi feito no seu ispositivo.</p>
           </div>
+
+          <div class="testimonial-item">
+            <img src="assets/indexMain/files/img/testemulho/#" class="testimonial-img" alt="">
+            <h3>Thiago Roberto</h3>
+            <h4>Dono fundador - TR Multimarcas</h4>
+            <p>
+              <img src="assets/indexMain/files/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Abertura de chamado simples, serviço de excelente qualidade, plano mensal adaptado para realidade do meu estabelecimento, não tem como não elogiar o serviço da NeoDesk.
+              <img src=assets/indexMain/files/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/indexMain/files/img/testemulho/#" class="testimonial-img" alt="">
+            <h3>Lucas Silva</h3>
+            <h4>Dono fundandor - Marketing LS</h4>
+            <p>
+              <img src="assets/indexMain/files/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Equipe técnica disposta a estudar soluções que atendem a necessidade real do problema, no nosso caso 90% dos problemas são resolvidos no atendimento de primeiro nível.
+              <img src="assets/indexMain/files/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/indexMain/files/img/testemulho/#" class="testimonial-img" alt="">
+            <h3>Michael</h3>
+            <h4>Cliente Streaming</h4>
+            <p>
+              <img src="assets/indexMain/files/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Serviço de exelencia, equipe disposta a dirar todas as duvidas.
+              <img src="assets/indexMain/files/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/indexMain/files/img/testemulho/#" class="testimonial-img" alt="">
+            <h3>Hyane</h3>
+            <h4>Dona Fundadora - HL Estética</h4>
+            <p>
+              <img src="assets/indexMain/files/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Proficionais capacitados sempres disposto a ajudar oferecendo um serviço de exelencia a NeoDesk real é uma das melhoras empresas de teclogia que conheço.
+              <img src="assets/indexMain/files/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
         </div>
 
       </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="section-bg wow fadeInUp">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Contato</h2>
+        <div class="section-header">
+          <h3>Contatos</h3>
+          <p>Atuamos em diversas áreas ligadas a técnologia, buscando sempre o inovador.</p>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="info-wrap">
-              <div class="row">
-                <div class="col-lg-4 info">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Endereço:</h4>
-                  <p>No momento todos atendimentos são feitos online.</p>
-                </div>
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@neodeskinformatica.com.br<br>contato@neodeskinformatica.com.br</p>
-                </div>
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-phone"></i>
-                  <h4>Telefone:</h4>
-                  <p>+55 21 98679-0008</p>
-                </div>
-              </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Endereço</h3>
+              <address>No momento todos atendimentos são feitos online.</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Telefone / Whasapp </h3>
+              <p><a href="tel:+55 21 98679-0008">+55 21 98679-0008</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="info@neodeskinformatica.com.br">info@neodeskinformatica.com.br<br>contato@neodeskinformatica.com.br</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>NeoDesk</h3>
+            <p>Atuamos em diversas áreas ligadas a técnologia, buscando sempre o inovador.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Quem somos</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Serviços</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contato</h4>
+            <p>
+              <strong>Telefone:</strong>+55 21 98679-0008<br>
+              <strong>Email:</strong>info@neodeskinformatica.com.br<br>contato@neodeskinformatica.com.br<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
-
-        </div>
-      </div>
-    </section>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>NeoDesk Soluções em informática</span></strong>. Todos os diretos reservados
+        &copy; Copyright <strong>NeoDesk</strong>. Todos os diretos reservados 
       </div>
       <div class="credits">
-        Desenvolvidor por<a href="https://www.neodeskinformatica.com.br">NeoDesk Soluções em informática</a>
-      </div>
+        Desenvolvidor por <a href="neodeskinformatica.combr">NeoDesk</a> by NeoDesk Soluções em Informática
     </div>
   </footer>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <script src="assets/indexTemp/indexTemp/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/indexTemp/javaScript/main.js"></script>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <script src="assets/indexMain/lib/jquery/jquery.min.js"></script>
+  <script src="assets/indexMain/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="assets/indexMain/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/indexMain/lib/easing/easing.min.js"></script>
+  <script src="assets/indexMain/lib/superfish/hoverIntent.js"></script>
+  <script src="assets/indexMain/lib/superfish/superfish.min.js"></script>
+  <script src="assets/indexMain/lib/wow/wow.min.js"></script>
+  <script src="assets/indexMain/lib/waypoints/waypoints.min.js"></script>
+  <script src="assets/indexMain/lib/counterup/counterup.min.js"></script>
+  <script src="assets/indexMain/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/indexMain/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/indexMain/lib/lightbox/js/lightbox.min.js"></script>
+  <script src="assets/indexMain/lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="assets/indexMain/contactform/contactform.js"></script>
+  <script src="assets/indexMain/js/main.js"></script>
 </body>
 </html>
